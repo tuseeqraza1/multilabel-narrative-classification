@@ -1,0 +1,13 @@
+# Model training / inference / evaluation
+torch
+transformers
+scikit-learn
+pandas
+numpy
+safetensors
+
+# Dataset analysis notebook
+jupyter
+nltk
+wordcloud
+matplotlib

@@ -1,0 +1,36 @@
+# -------------------------
+# Python
+# -------------------------
+# bytecode cache, created whenever the scripts run
+__pycache__/
+*.py[cod]
+# virtual env created during setup (see README)
+.venv/
+venv/
+# created by Jupyter when opening the notebook
+.ipynb_checkpoints/
+
+# -------------------------
+# Windows
+# -------------------------
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Data, models and outputs (not committed; only structure kept via .gitkeep)
+# -------------------------
+data/*
+models/*
+outputs/*
+!data/.gitkeep
+!models/.gitkeep
+!outputs/.gitkeep
+
+# Model weights anywhere else in the tree
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# Logs
+*.log
